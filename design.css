@@ -1,0 +1,19 @@
+table{
+    border-spacing: 0;
+
+width: 50%
+}
+
+thead{
+    background-color:blue;
+    color: white;
+}
+tbody td:nth-child(3){
+    text-align: center;
+}
+tbody td:nth-child(2){
+    padding-left:350px;
+   
+}
+tbody tf:nth-child(1);
+
