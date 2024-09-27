@@ -1,19 +1,36 @@
 table{
-    border-spacing: 0;
+    border-spacing: 2;
 
-width: 50%
+width: 100%
 }
 
 thead{
-    background-color:blue;
+    background-color:rgba(98, 81, 175, 0.861);
     color: white;
 }
 tbody td:nth-child(3){
     text-align: center;
 }
 tbody td:nth-child(2){
-    padding-left:350px;
-   
+    
+    text-align: center;
 }
-tbody tf:nth-child(1);
 
+tbody tr:nth-child(odd){
+    background-color: rgba(201, 179, 194, 0.426);
+    color: rgb(32, 32, 148);
+}
+
+
+tbody td:nth-child(1){
+    padding-left: 15%;
+}
+
+tbody tr:hover{
+    background-color: #72849e00;
+    transition: 0.5s ease-in;
+}
+img{
+   margin-left: 40%;
+   width: 20%; 
+}
